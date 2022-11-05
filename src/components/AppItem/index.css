@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.applistitem {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  border: 0px solid white;
+  border-radius: 5px;
+  margin-left: 1%;
+  background-color: white;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+.appimage {
+  height: 50px;
+  width: 80px;
+}

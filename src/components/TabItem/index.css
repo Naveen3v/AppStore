@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.tablistitem {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 5%;
+  font-weight: 500;
+  font-size: large;
+}
+.btn {
+  background-color: transparent;
+  border: 0px;
+  font-size: 10px;
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 20px;
+  }
+}
+.activetabbtn {
+  border-bottom: 2px solid blue;
+  color: #3e4c59;
+}
